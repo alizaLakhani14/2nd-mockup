@@ -12,14 +12,18 @@ body {
     width: 100%;
 }
 
+#main {
+    display: flex;
+}
+
 #main-1 {
-    width: 26%;
+    width: 37%;
     border: 1px solid black;
     display: flex;
 }
 
 #main-2 {
-    width: auto;
+    width: 63%;
 }
 
 #icons {
@@ -109,20 +113,118 @@ h3 {
     padding: 5px;
 }
 
-#list-1 {
+/* #list-1 {
+    display: flex;
+    flex-direction: column;
+} */
+
+#lists {
     display: flex;
     flex-direction: column;
 }
 
-#lists {
-    display: flex;
-}
-
-#lists #list-1 i {
+.lists .list-item i {
     color: gray;
-     padding:4.5px;
+    font-size: 20px;
 }
 
-#lists #list-2 p{
-    padding:4.6px;
+.list-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#dm~i {
+    color: gray;
+    margin-left: 135px;
+    font-size: 13px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+p #dm {
+    display: inline-block;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-1 h4 {
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    margin-left: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#star {
+    color: gray;
+    margin: 0.3em;
+    border-right: 1px solid gray;
+    padding-right: 4px;
+}
+
+#people {
+    color: gray;
+    margin: 0.3em;
+    border-right: 1px solid gray;
+    padding-right: 4px;
+}
+
+#pin {
+    color: gray;
+    margin: 0.3em;
+    border-right: 1px solid gray;
+    padding-right: 4px;
+}
+
+#pencil {
+    color: gray;
+    margin: 0.3em;
+    border-right: 1px solid gray;
+    padding-right: 4px;
+}
+
+#header-2 {
+    margin-top: 25px;
+}
+
+#header-2 input {
+    height: 30px;
+    border-radius: 5px;
+}
+
+#phone {
+    color: gray;
+    margin: 0.3em;
+}
+
+#info {
+    color: gray;
+    margin: 0.3em;
+}
+
+#settings {
+    color: gray;
+    margin: 0.3em;
+}
+
+#phone {
+    color: gray;
+    margin: 0.3em;
+}
+
+#star-2 {
+    color: gray;
+    margin: 0.3em;
+}
+
+#ellipsis {
+    color: gray;
+    margin: 0.3em;
+}
+
+#hr-1{
+    display:flex;
 }
