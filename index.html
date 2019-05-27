@@ -11,9 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -42,8 +43,13 @@
                     <i class="fas fa-bars" id="bars"></i>All Unreads</h3>
                 <p>
                     <i class="fas fa-comment" id="message"></i>Threads</p>
-                <p id="channel">Channels</p>
-                <i class="fas fa-plus" id="plus"></i>
+                <div class="channels">
+                    <span>
+                        Channel
+                        <i class="fas fa-plus" id="plus"></i>
+                    </span>
+                </div>
+
                 <div class="lists">
                     <div class="list-item">
                         <i class="fas fa-hashtag"></i>
@@ -107,91 +113,71 @@
                     </div>
                 </div>
                 <!-- direct -->
-                <p id="dm">Direct Messages</p>
-                <i class="fas fa-plus"></i>
+                <div class="channels">
+                    <span>
+                        Direct Messages
+                        <i class="fas fa-plus" id="plus-2"></i>
+                    </span>
+                </div>
+
                 <div class="list">
                     <div class="list-item">
-                        <i class="fas fa-heart"></i>
-                        <p>announcements</p>
+                        <i class="fas fa-heart" id="heart-1"></i>
+                        <p>Slackbot</p>
                     </div>
                     <div class="list-item">
-                        <i class="fas fa-heart"></i>
-                        <p>attendance</p>
+                        <i class="fas fa-circle" id="circle-1"></i>
+                        <p>Sarah Ahmed(You)</p>
                     </div>
                     <div class="list-item">
-                        <i class="fas fa-heart"></i>
-                        <p>chat</p>
+                        <i class="far fa-circle"></i>
+                        <p>Ali Raza</p>
                     </div>
                     <div class="list-item">
-                        <i class="fas fa-heart"></i>
-                        <p>class resources</p>
+                        <i class="far fa-circle"></i>
+                        <p>Altaf Hussain</p>
                     </div>
                     <div class="list-item">
-                        <i class="fas fa-heart"></i>
-                        <p>dev-projects</p>
+                        <i class="far fa-circle"></i>
+                        <p>Ammara Zahid</p>
                     </div>
+
                     <div class="list-item">
-                        <i class="fas fa-heart"></i>
-                        <p>freecodecamp</p>
+                        <i class="far fa-circle"></i>
+                        <p>Aniqa Mukhtar</p>
                     </div>
-                    <div class="list-item">
-                        v
-                        <p>general</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-hashtag"></i>
-                        <p>Groub-b-rabia</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-hashtag"></i>
-                        <p>lifeskills</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-hashtag"></i>
-                        <p>mentor-meetups</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-hashtag"></i>
-                        <p>student-showcase</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-lock"></i>
-                        <p>tech-ninjas</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-lock"></i>
-                        <p>techkaro-website</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-lock"></i>
-                        <p>tk-girls</p>
-                    </div>
-                    <div class="list-item">
-                        <i class="fas fa-hashtag"></i>
-                        <p>web-dev</p>
-                    </div>
+
 
                 </div>
 
             </div>
 
-          
+
         </div>
         <div id="main-2">
             <section id="header">
                 <div id="header-1">
                     <h4>#student-showcase</h4>
-                    <i class="fas fa-star" id="star"></i>
-                    <i class="fas fa-user-alt" id="people"></i>
-                    <i class="fas fa-thumbtack" id="pin"></i>
-                    <i class="fas fa-pencil-alt" id="pencil"></i>
+                    <div class="header-icon-1">
+                        <i class="fas fa-star" id="star"></i>
+                    </div>
+
+                    <div class="header-icon-1">
+
+                        <i class="fas fa-user-alt" id="people"></i><span>116</span>
+                    </div>
+                    <div class="header-icon-1">
+                        <i class="fas fa-thumbtack" id="pin"></i><span>1</span>
+                    </div>
+
+                    <i class="fas fa-pencil-alt" id="pencil"></i><span>Add a Topic</span>
                 </div>
                 <div id="header-2">
-                        <i class="fas fa-phone" id="phone"></i>
-                        <i class="fas fa-info-circle" id="info"></i>
-                        <i class="fas fa-cog" id="settings"></i>
-                    <input type="search" placeholder="Search">  
-                    <i class="far fa-at" id="phone"></i> 
+                    <i class="fas fa-phone" id="phone"></i>
+                    <i class="fas fa-info-circle" id="info"></i>
+                    <i class="fas fa-cog" id="settings"></i>
+                    <input type="search" placeholder="Search">
+                    <i class="far fa-at" id="phone"></i>
                     <i class="fas fa-star" id="star-2"></i>
                     <i class="fas fa-ellipsis-v" id="ellipsis"></i>
                 </div>
@@ -201,6 +187,71 @@
                 <p>Thursday, May 16</p>
                 <hr>
             </div>
+            <div class="message-1">
+                <img src="images/profile.png" alt="profile-pic" class="profile-pic">
+                <div class="text">
+                    <h4>Syeda Kokab</h4>
+                    <span id="message-icon"><i class="fas fa-comment"></i></span>
+                    <span id="time">3:58 am</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem porro sit deserunt possimus
+                        facere voluptate, adipisci praesentium. Dolore nobis, similique minima distinctio aperiam
+                        obcaecati ea? Magnam, laboriosam? Provident, mollitia.</p>
+                </div>
+
+            </div>
+            <div id="tick">
+                <i class="fas fa-check"></i><span>1</span>
+            </div>
+            <div class="message-2">
+                <i class="fas fa-thumbtack" id="pin-2"></i>
+                <span>Pinned by</span>
+                <span>@Maria Khurshid</span>
+                <div class="message-1">
+                    <img src="images/profile.png" alt="profile-pic" class="profile-pic">
+                    <div class="text">
+                        <h4>Syeda Kokab</h4>
+                        <span id="message-icon"><i class="fas fa-comment"></i></span>
+                        <span id="time">3:58 am</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <figure class="flex">
+                            <img src="images/flex.png" alt="image">
+                        </figure>
+                        <!-- completed -->
+                        <!-- work in progress -->
+                        <figure class="profiles"><img src="images/profilepic.png" alt="profile-pic" id="profilepic">
+                        </figure>
+
+                        <div class="heart-emoji">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="smiley-emoji">
+                            <i class="fas fa-grin-beam"></i>
+                        </div>
+                        <div class="thumbs-up">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="message-1">
+                <img src="images/profile.png" alt="profile-pic" class="profile-pic">
+                <div class="text">
+                    <h4>Syeda Kokab</h4>
+                    <span id="message-icon"><i class="fas fa-comment"></i></span>
+                    <span id="time">3:58 am</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem porro sit deserunt possimus
+                    </p>
+                </div>
+
+
+            </div>
+            <figure>
+                <img src="images/w3.png" alt="w3">
+            </figure>
         </div>
     </div>
 </body>

@@ -12,25 +12,34 @@ body {
     width: 100%;
 }
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #main {
     display: flex;
 }
 
 #main-1 {
-    width: 37%;
     border: 1px solid black;
     display: flex;
 }
 
 #main-2 {
-    width: 63%;
+    width: 100%;
 }
 
 #icons {
-    width: 30%;
     background-color: #200720;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#icons figure {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #icons figure img {
@@ -47,6 +56,7 @@ body {
     display: inline-block;
     color: white;
     margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #sorted-down {
@@ -60,15 +70,18 @@ body {
     font-size: 25px;
 }
 
-#circle {
+#circle, #heart-1, #circle-1 {
     color: #37938a;
+}
+
+#circle {
     margin-right: 5px;
 }
 
 #tk-2019 p {
     margin-bottom: 0;
     margin-top: 0px;
-    margin-left: 5px;
+    margin-left: 10px;
     color: darkgray;
     font-family: 'Montserrat', sans-serif;
 }
@@ -77,16 +90,21 @@ body {
     background-color: #200720;
     border: 0.1px solid #200720;
     padding: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 10px;
     width: 250px;
     border-radius: 10px;
+    margin-right: 10px;
+    color: white'
+
 }
 
 h3 {
     color: white;
     margin-top: 15px;
-    margin-left: 5px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
 }
 
 #bars {
@@ -99,31 +117,35 @@ h3 {
     padding-right: 5px;
 }
 
-#tk-2019 #channel {
-    display: inline-block;
-    margin-top: 20px;
+.channels span {
+    color: gray;
+    font-size: 20px;
 }
 
-#plus {
+.channels {
+    margin-left: 10px;
+    margin-top: 1.5em;
+}
+
+#plus, #plus-2 {
     color: gray;
     margin-left: 135px;
-    font-size: 13px;
+    font-size: 0.5em;
     border: 1px solid gray;
     border-radius: 100%;
     padding: 5px;
 }
 
-/* #list-1 {
-    display: flex;
-    flex-direction: column;
-} */
+#plus-2 {
+    margin-left: 57px;
+}
 
 #lists {
     display: flex;
     flex-direction: column;
 }
 
-.lists .list-item i {
+.list-item i {
     color: gray;
     font-size: 20px;
 }
@@ -131,6 +153,7 @@ h3 {
 .list-item {
     display: flex;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 #dm~i {
@@ -161,28 +184,24 @@ p #dm {
 #star {
     color: gray;
     margin: 0.3em;
-    border-right: 1px solid gray;
     padding-right: 4px;
 }
 
 #people {
     color: gray;
     margin: 0.3em;
-    border-right: 1px solid gray;
     padding-right: 4px;
 }
 
 #pin {
     color: gray;
     margin: 0.3em;
-    border-right: 1px solid gray;
     padding-right: 4px;
 }
 
 #pencil {
     color: gray;
     margin: 0.3em;
-    border-right: 1px solid gray;
     padding-right: 4px;
 }
 
@@ -225,6 +244,78 @@ p #dm {
     margin: 0.3em;
 }
 
-#hr-1{
-    display:flex;
+#hr-1 {
+    display: flex;
+}
+
+.header-icon-1 {
+    display: inline-block;
+    border-right: 1px solid gray;
+    padding: 4px;
+}
+
+hr {
+    width: 25em;
+    height: 0.5px;
+    margin-top: 22px;
+}
+
+.profile-pic {
+    height: 50px;
+    width: 50px;
+}
+
+.message-1 {
+    display: flex;
+}
+
+.text h4 {
+    display: inline-block;
+}
+
+.message-1 img {
+    margin-left: 1.5em;
+}
+
+.text h4 {
+    margin-top: 10px;
+}
+
+.text p {
+    margin-top: -20px;
+}
+
+#tick {
+    width: 40px;
+    border: 1px solid blue;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-left: 4.5em;
+}
+
+#tick span {
+    padding: 5px;
+}
+
+.message-2 {
+    background-color: #fef9ec;
+    margin-top: 2em;
+}
+
+#pin-2 {
+    color: gold;
+    margin-left: 32px;
+}
+
+.flex img {
+    height: 300px;
+    width: 300px;
+}
+
+.flex {
+    margin-left: -25px;
+}
+
+.heart-emoji, .smiley-emoji, .thumbs-up {
+    display: inline-block
 }
