@@ -18,6 +18,7 @@ body {
 
 #main {
     display: flex;
+    width:100%
 }
 
 #main-1 {
@@ -330,5 +331,18 @@ hr {
 
 #input {
     border: 1px solid gray;
+    display:flex;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+}
+
+/* Responsive Design */
+
+@media only screen and(max-width:1300px){
+
+
 }
 
