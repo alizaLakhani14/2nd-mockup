@@ -51,7 +51,8 @@ body {
 
 #tk-2019 {
     background-color: #3f0d40;
-    width: 100%;
+     display: flex;
+     flex-direction: column;
 }
 
 #tk-2019 h2 {
@@ -63,13 +64,15 @@ body {
 
 #sorted-down {
     color: gray;
-    margin: 2px;
+    margin-top: 29px;
+    margin-left: 5px;
 }
 
 #bell {
     color: gray;
     margin-left: 100px;
     font-size: 25px;
+    margin-top:25px;
 }
 
 #circle, #heart-1, #circle-1 {
@@ -338,10 +341,33 @@ hr {
     display:flex;
     flex-direction: column;
 }
+.tk{
+    display:flex;   
+}
 
-/* Responsive Design */
 
-@media only screen and(max-width:1300px){
+
+@media only screen and (max-width: 990px){
+    #main{
+        display: flex;
+        flex-direction:column;
+    }
+
+    #main-1{
+        flex-direction: column;
+    }
+
+    #icons{
+        flex-direction: row;
+    justify-content: center;
+        margin-right:0;
+        margin-left: 0;
+    }
+
+    #tk-2019{
+        align-items: center;
+    }
+    
 
 
 }
