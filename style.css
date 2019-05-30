@@ -367,6 +367,16 @@ hr {
     #tk-2019{
         align-items: center;
     }
+
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .content{
+        align-items: center;
+    }
     
 
 
