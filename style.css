@@ -18,13 +18,12 @@ body {
 
 #main {
     display: flex;
-    width:100%
+    width: 100%
 }
 
 #main-1 {
     border: 1px solid black;
     display: flex;
-  
 }
 
 #main-2 {
@@ -51,8 +50,8 @@ body {
 
 #tk-2019 {
     background-color: #3f0d40;
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #tk-2019 h2 {
@@ -72,7 +71,7 @@ body {
     color: gray;
     margin-left: 100px;
     font-size: 25px;
-    margin-top:25px;
+    margin-top: 25px;
 }
 
 #circle, #heart-1, #circle-1 {
@@ -310,7 +309,7 @@ hr {
 .message-input {
     display: flex;
     margin-left: 10px;
-    margin-top:3.5em;
+    margin-top: 3.5em;
 }
 
 #plus-3 i {
@@ -334,51 +333,56 @@ hr {
 
 #input {
     border: 1px solid gray;
-    display:flex;
+    display: flex;
 }
 
-.content{
-    display:flex;
+.content {
+    display: flex;
     flex-direction: column;
 }
-.tk{
-    display:flex;   
+
+.tk {
+    display: flex;
 }
 
-
-
-@media only screen and (max-width: 990px){
-    #main{
+@media only screen and (max-width: 990px) {
+    #main {
         display: flex;
-        flex-direction:column;
-    }
-
-    #main-1{
         flex-direction: column;
     }
-
-    #icons{
+    #main-1 {
+        flex-direction: column;
+    }
+    #icons {
         flex-direction: row;
-    justify-content: center;
-        margin-right:0;
+        justify-content: center;
+        margin-right: 0;
         margin-left: 0;
     }
-
-    #tk-2019{
+    #tk-2019 {
         align-items: center;
     }
-
-    #header{
+    #header {
         flex-direction: column;
         align-items: center;
     }
-
-
-    .content{
+    .content {
         align-items: center;
     }
-    
-
-
+    #input input {
+        padding-right: 5em;
+    }
+    #hr-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #first-line {
+        display: none;
+    }
+    #hr-1 p {
+        margin-bottom: 0;
+    }
+    #second-line {
+        margin-top: 10px;
+    }
 }
-
